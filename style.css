@@ -156,7 +156,7 @@ body{
 }
 .hook-card:hover{ border-color:var(--accent); transform:translateY(-4px); }
 .hook-card__big{
-  display:block; font-family:var(--serif); font-size:clamp(2.2rem,4vw,3.4rem);
+  display:block; font-family:var(--serif); font-size:clamp(1.6rem,3vw,2.8rem);
   font-weight:400; color:var(--ink); line-height:1; margin-bottom:1.1rem;
 }
 .hook-card__cap{ font-size:.98rem; line-height:1.5; color:var(--ink-soft); }
@@ -171,10 +171,10 @@ body{
 .now-context{ font-size:1.18rem; line-height:1.6; max-width:60ch; color:var(--ink-soft); margin-bottom:3rem; }
 .now-context strong{ color:var(--ink); font-weight:500; }
 .now-rows{ display:flex; flex-direction:column; }
-.now-row{ display:grid; grid-template-columns:120px 1fr; gap:2rem; padding:1.5rem 0; border-top:1px solid var(--line); align-items:start; }
+.now-row{ display:grid; grid-template-columns:140px 1fr; gap:2rem; padding:1.5rem 0; border-top:1px solid var(--line); align-items:start; }
 .now-row:last-child{ border-bottom:1px solid var(--line); }
 .now-row__tag{ font-family:var(--mono); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); padding-top:.25rem; }
-.now-row p{ font-size:1.08rem; line-height:1.55; color:var(--ink); }
+.now-row p{ font-size:1.08rem; line-height:1.55; color:var(--ink); letter-spacing:0.01em; }
 .now-row b{ font-weight:500; color:var(--ink); }
 
 /* ============================================================
@@ -287,7 +287,7 @@ body{
   .pat__id{ grid-column:1; }
   .pat__name{ grid-column:1; }
   .pat__arr{ grid-row:1; grid-column:2; }
-  .chapter{ padding:6rem var(--pad) 4rem; }
+  .chapter{ padding:4.5rem 1.4rem 3rem; }
 }
 
 /* ---- Reduced motion ---- */
