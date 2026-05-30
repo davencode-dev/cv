@@ -2,7 +2,7 @@
 
 A single-page, scroll-driven interactive résumé. Dark editorial design, built from scratch (no template, no framework, no build step).
 
-**Live:** _add your GitHub Pages URL here once deployed_
+**Live:** [_Live CV_](https://davencode-dev.github.io/cv/)
 
 ---
 
